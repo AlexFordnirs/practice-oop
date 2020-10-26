@@ -1,5 +1,7 @@
 package org.itstep.task02;
 
+import org.itstep.task01.Human;
+
 /**
  * Задание 2
  * <p>
@@ -22,5 +24,13 @@ package org.itstep.task02;
 public class Main {
     public static void main(String[] args) {
         // FIXME: здесь пример использования класса
+         String name;
+         String region;
+         String country;
+         int inhabitants;
+         String index;
+         String code;
+        City city1 = new City();
+        city1.displayInfo();
     }
 }
