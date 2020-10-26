@@ -24,17 +24,17 @@ public class City {
     void displayInfo(){
         System.out.printf("ФИО: %s \nдатa рождения: %d\n контактный телефон: %f \nгород: %g\n странa: %h \nдомашний адрес: %j\n", name, region,country,inhabitants,index,code);
     }
-    public String getFullName(){return name;}
-    public void setFullName(String name){ this.name=name;}
-    public String getDateOfBirth(){return region;}
-    public void setDateOfBirth(String region){this.region=region;}
-    public String getPhone(){return country;}
-    public void setPhone(String country){  this.country=country;}
-    public int getCity(){return inhabitants;}
-    public void setCity(int inhabitants){  this.inhabitants=inhabitants;}
-    public String getCountry(){return index;}
-    public void setCountry(String index){ this.index=index;}
-    public String getAddress(){return code;}
-    public void setAddress(String code){ this.code=code;}
+    public String getName(){return name;}
+    public void setName(String name){ this.name=name;}
+    public String getRegion(){return region;}
+    public void setRegion(String region){this.region=region;}
+    public String getCountry(){return country;}
+    public void setCountry(String country){  this.country=country;}
+    public int getInhabitants(){return inhabitants;}
+    public void setInhabitants(int inhabitants){  this.inhabitants=inhabitants;}
+    public String getIndex(){return index;}
+    public void setIndex(String index){ this.index=index;}
+    public String getCode(){return code;}
+    public void setCode(String code){ this.code=code;}
 
 }
