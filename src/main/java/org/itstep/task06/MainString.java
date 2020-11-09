@@ -62,5 +62,4 @@ public class MainString {
 
     public String toString ()
     { CharSequence cs=chars.toString();return  cs.toString(); }
-
 }
